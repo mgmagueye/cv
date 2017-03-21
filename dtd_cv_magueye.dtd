@@ -1,0 +1,43 @@
+	<!ELEMENT Contacts (contactmagueye,titre,stage,head,hdd,annee,hd,hddd,head1,edd,ean,edd2,ean2,head2,langue,head3,logiciel,head4,ci)>
+  <!ELEMENT contactmagueye (nom,prenom,age,phone,rue,cp,ville,mail,dispo)>
+	<!ELEMENT annee (ex*,opt,optt)>
+	<!ELEMENT ean (exx*)>
+  <!ELEMENT ean2 (ex3*)>
+  <!ELEMENT head2 (#PCDATA)>
+  <!ELEMENT langue (lang*)>
+  <!ELEMENT logiciel (log*)>
+	<!ELEMENT edd2 (#PCDATA)>
+	<!ATTLIST contactmagueye >
+	<!ELEMENT nom (#PCDATA)>
+	<!ELEMENT prenom (#PCDATA)>
+	<!ELEMENT age (#PCDATA)>
+	<!ELEMENT phone (#PCDATA)>	
+	<!ELEMENT rue (#PCDATA)>
+	<!ELEMENT cp (#PCDATA)>
+	<!ELEMENT ville (#PCDATA)>
+	<!ELEMENT mail (#PCDATA)>
+	<!ELEMENT dispo (#PCDATA)>	
+	<!ELEMENT hdd (#PCDATA)>
+	<!ELEMENT hd (#PCDATA)>
+  <!ELEMENT hddd (#PCDATA)>
+  <!ELEMENT head1 (#PCDATA)>
+  <!ELEMENT edd (#PCDATA)>
+  <!ELEMENT lang (#PCDATA)>
+  <!ELEMENT head3 (#PCDATA)>
+  <!ELEMENT log (#PCDATA)>
+  <!ELEMENT titre (#PCDATA)>
+  <!ELEMENT stage (#PCDATA)>
+  <!ELEMENT head (#PCDATA)>
+  <!ELEMENT ex (#PCDATA)>
+  <!ELEMENT opt (#PCDATA)>
+  <!ELEMENT optt (#PCDATA)>
+  <!ELEMENT exx (#PCDATA)>
+  <!ELEMENT ex3 (#PCDATA)>
+
+  <!ELEMENT head4 (#PCDATA)>
+	<!ELEMENT ci (#PCDATA)>
+	
+	
+	
+	
+	
